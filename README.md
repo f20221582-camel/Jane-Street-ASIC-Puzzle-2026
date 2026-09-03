@@ -4,7 +4,7 @@ Reverse-engineering a chip layout back into a circuit, using nothing but Python'
 
 You get a `.gds` file. That's a binary dump of physical shapes on silicon. No netlist, no schematic, no idea what the circuit does. The task is to recover the placement (DEF), the gate-level netlist, and work out what the thing actually computes.
 
-> **Spoiler warning.** The answer is below. Stop reading if you want to solve the puzzle yourself.
+> **Spoiler warning.** The answer is below. Stop reading if you want to solve [the puzzle](https://github.com/janestreet/asic-puzzle-2026) yourself.
 
 ---
 
