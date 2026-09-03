@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Intermediate / generated pickle files (large, reproducible from scripts)
+*_flat.pkl
+*_nets.pkl
+
+# Generated Verilog netlists & DEF (reproducible from pipeline scripts)
+puzzle.v
+puzzle.def
+warmup.v
+warmup.def
+
+# Generated text output logs (reproducible by re-running scripts)
+blocks_puzzle.txt
+blocks_warmup.txt
+census_puzzle.txt
+census_warmup.txt
+peek_puzzle.txt
+peek_warmup.txt
